@@ -1,3 +1,2 @@
 fastapi==0.115.0
 uvicorn==0.30.0
-yt-dlp[curl-cffi]==2026.3.17
