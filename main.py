@@ -39,6 +39,7 @@ def get_transcript(video_id: str, lang: str = "ja", secret: str = ""):
         "subtitlesformat": "json3",
         "quiet": True,
         "no_warnings": True,
+        "impersonate": "chrome",
     }
 
     try:
